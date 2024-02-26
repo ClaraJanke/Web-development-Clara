@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    background-color: #f4f4f4; /* Optional: Add a background color */
+  }
+  
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+  header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #F8DAC3;
+    color:#743405;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+   li {
+    list-style-type: none
+  }
+  
+  ul li{
+    width: 150px;
+    float: left;
+    background-color: #F8DAC3 ;
+    padding: 5px
+  }
+
+  
+  .logo {
+    font-size: 1.5em;
+    padding: 10px;
+  }
+
+.div-with-bg {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/responsivehero2.jpg);
+    }
+
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  align-items: stretch;
+    max-width: 1200px; /* Adjust the maximum width of the main content */
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .left-column,
+  .right-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image {
+    flex-grow: 0;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .image img {
+    width: auto;
+    height: 350px;
+  }
+
+  
